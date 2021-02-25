@@ -2,9 +2,8 @@ import PropTypes from "prop-types";
 import React, { Component } from "react";
 import GoogleButton from 'react-google-button'
 const BASE_URL = "http://opensky2.herokuapp.com/";
-/*
-const BASE_URL = process.env.NODE_ENV === "production" ? "https://opensky2.herokuapp.com/" : "http://localhost:8080/"
-*/
+// const BASE_URL = process.env.NODE_ENV === "production" ? "https://opensky2.herokuapp.com/" : "http://localhost:8080/"
+
 
 export default class Login extends Component {
   static propTypes = {

@@ -1,9 +1,8 @@
 import Axios from 'axios';
 
 const BASE_URL = "http://opensky2.herokuapp.com/api/";
-/*
-const BASE_URL = process.env.NODE_ENV === "production" ? "https://opensky2.herokuapp.com/api/" : "http://localhost:8080/api/"
-*/
+// const BASE_URL = process.env.NODE_ENV === "production" ? "https://opensky2.herokuapp.com/api/" : "http://localhost:8080/api/"
+
 
 
 var axios = Axios
